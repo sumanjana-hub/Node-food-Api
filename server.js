@@ -29,9 +29,7 @@ app.get('/', (req,res)=>{
     res.status(200).json({message:"hello from the server"});
 })
 
-app.use("/home",(req,res)=>{
-    res.json({message:"hello from the server"})
-})
+
 
 const port = process.env.PORT ;
 
